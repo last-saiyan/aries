@@ -3,7 +3,7 @@ window.onload = function(){
 
   // Mapping of DOM table id to data keys corresponding to table columns
   var column_keys = {
-    'log': ['lsn', 'txn_id', 'type', 'page_id', 'prev_lsn'],
+    'log': ['lsn', 'txn_id', 'type', 'page_id', 'prev_lsn', 'before', 'after'],
     'dirty-page-table': ['page_id', 'rec_lsn'],
     'transaction-table': ['txn_id', 'txn_status', 'last_lsn'],
     'buffer-pool': ['page_id', 'page_lsn', 'value'],
